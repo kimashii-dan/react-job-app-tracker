@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 22px;
+  background: var(--card);
+  color: var(--card-foreground);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--status);
+  border-radius: 14px;
+  box-shadow: var(--shadow-base);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card-company {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--highlight);
+}
+
+.card-position {
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted-foreground);
+}
+
+.card-meta span + span::before {
+  content: '·';
+  margin-right: 8px;
+}
+
+.card-mode {
+  text-transform: capitalize;
+}

@@ -150,3 +150,23 @@ textarea::placeholder {
   background: var(--secondary);
   color: var(--secondary-foreground);
 }
+
+.status-applied {
+  --status: var(--primary);
+  --status-foreground: var(--primary-foreground);
+}
+
+.status-interview {
+  --status: var(--warning);
+  --status-foreground: var(--warning-foreground);
+}
+
+.status-offer {
+  --status: var(--accent);
+  --status-foreground: var(--accent-foreground);
+}
+
+.status-rejected {
+  --status: var(--destructive);
+  --status-foreground: var(--destructive-foreground);
+}
