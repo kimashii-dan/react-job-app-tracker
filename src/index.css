@@ -1,0 +1,152 @@
+:root {
+  --neutral-hue: 260;
+  --neutral-chroma: 0.015;
+
+  --background: oklch(0.28 var(--neutral-chroma) var(--neutral-hue));
+  --foreground: oklch(0.8 0.01 var(--neutral-hue));
+
+  --card: oklch(0.32 0.018 var(--neutral-hue));
+  --card-foreground: var(--foreground);
+
+  --border: oklch(0.42 0.02 var(--neutral-hue));
+
+  --muted: oklch(0.38 0.02 var(--neutral-hue));
+  --muted-foreground: oklch(0.68 0.015 var(--neutral-hue));
+
+  --primary: oklch(0.68 0.18 260);
+  --primary-foreground: oklch(0.25 0.015 260);
+
+  --secondary: oklch(0.42 0.06 260);
+  --secondary-foreground: var(--foreground);
+
+  --accent: oklch(0.66 0.16 160);
+  --accent-foreground: oklch(0.25 0.015 260);
+
+  --destructive: oklch(0.64 0.18 25);
+  --destructive-foreground: oklch(0.25 0.015 260);
+
+  --warning: oklch(0.78 0.15 85);
+  --warning-foreground: oklch(0.25 0.02 85);
+
+  --highlight: oklch(1 0 0);
+
+  --glass-bg: rgba(40, 45, 55, 0.4);
+  --glass-shadow: rgba(0, 0, 0, 0.3);
+
+  --shadow-sm: inset 0 1px 2px #ffffff30, 0 1px 2px #00000030, 0 2px 4px #00000015;
+  --shadow-base: inset 0 1px 2px #ffffff50, 0 2px 4px #00000030, 0 4px 8px #00000015;
+  --shadow-lg: inset 0 1px 2px #ffffff70, 0 4px 6px #00000030, 0 6px 10px #00000015;
+
+  --shadow-inset-soft: inset 2px 2px 4px #00000035, inset -2px -2px 4px #ffffff08;
+  --shadow-inset-medium: inset 2px 2px 5px #00000060, inset -2px -2px 5px #ffffff10;
+
+  --font-main: "Manrope", sans-serif;
+  --font-nice: "Playfair Display", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-main);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  color: var(--foreground);
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-inset-soft);
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: var(--shadow-inset-medium);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--muted-foreground);
+}
+
+.container {
+  width: calc(100% - 48px);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0 60px;
+}
+
+.page-title {
+  font-family: var(--font-nice);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.1;
+  color: var(--highlight);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-base);
+  transition: box-shadow 0.2s, filter 0.2s;
+}
+
+.button:hover {
+  box-shadow: var(--shadow-lg);
+  filter: brightness(1.1);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: var(--shadow-base);
+  filter: none;
+}
+
+.button-primary {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.button-secondary {
+  background: var(--secondary);
+  color: var(--secondary-foreground);
+}
