@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getApplications } from '../api.js'
 import ApplicationList from '../components/ApplicationList.jsx'
+import Controls from '../components/Controls.jsx'
 import Message from '../components/Message.jsx'
 import './ListPage.css'
 
@@ -9,11 +10,12 @@ function ListPage() {
   const [total, setTotal] = useState(0)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [query, setQuery] = useState({ search: '', status: 'all', sort: 'newest' })
 
   useEffect(() => {
     let ignore = false
 
-    getApplications({})
+    getApplications(query)
       .then((data) => {
         if (!ignore) {
           setApplications(data.items)
@@ -32,7 +34,12 @@ function ListPage() {
     return () => {
       ignore = true
     }
-  }, [])
+  }, [query])
+
+  function updateQuery(changes) {
+    setQuery({ ...query, ...changes })
+    setLoading(true)
+  }
 
   let content
   if (loading) {
@@ -51,6 +58,14 @@ function ListPage() {
         <h1 className="page-title">Applications</h1>
         {!loading && !error && <span className="list-count">{total}</span>}
       </div>
+      <Controls
+        search={query.search}
+        status={query.status}
+        sort={query.sort}
+        onSearchChange={(value) => updateQuery({ search: value })}
+        onStatusChange={(value) => updateQuery({ status: value })}
+        onSortChange={(value) => updateQuery({ sort: value })}
+      />
       {content}
     </div>
   )

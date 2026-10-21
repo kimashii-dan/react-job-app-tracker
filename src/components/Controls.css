@@ -1,0 +1,19 @@
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 200px 200px;
+  gap: 14px;
+}
+
+.controls select {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .controls {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .controls-search {
+    grid-column: 1 / -1;
+  }
+}
