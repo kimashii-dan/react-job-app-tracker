@@ -1,16 +1,54 @@
-# React + Vite
+# Job Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React single page application for students to keep track of the jobs and internships they applied to: the company, the role, and the stage each application is at.
 
-Currently, two official plugins are available:
+**Live demo:** _add link here_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- List of 120 seeded applications from tech companies in Kazakhstan
+- Search by company or position
+- Filter by status: applied, interview, offer, rejected
+- Sort by newest, oldest, or company name (A–Z)
+- Pagination with 10 applications per page
+- Detail page for each application
+- Form for adding a new application with required-field validation
+- Edit an application from its detail page
+- Loading, error, empty, and success states
+- Responsive dark UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech
 
-## Expanding the ESLint configuration
+- React + Vite
+- React Router
+- Plain CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The data comes from a simulated API (`src/api.js`). It returns Promises with a short delay, is seeded from `src/data/applications.json`, and saves changes in `localStorage`.
+
+## How to run
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Project structure
+
+```
+src/
+  api.js            simulated API
+  data/             seed data
+  components/       reusable components
+  pages/            list, detail, and add pages
+```
+
+## Deploy
+
+The app is deployed on Vercel. `vercel.json` rewrites all routes to `index.html` so direct links to detail pages work.

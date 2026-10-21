@@ -63,3 +63,14 @@ export async function createApplication(data) {
   save([newApp, ...list])
   return newApp
 }
+
+export async function updateApplication(id, data) {
+  await delay()
+  const list = load()
+  if (!list.some((item) => item.id === Number(id))) {
+    throw new Error('Not found')
+  }
+  const updated = { ...data, id: Number(id) }
+  save(list.map((item) => (item.id === updated.id ? updated : item)))
+  return updated
+}

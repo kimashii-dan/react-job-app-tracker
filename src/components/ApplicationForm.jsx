@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './ApplicationForm.css'
 
 function getToday() {
   return new Date().toLocaleDateString('en-CA')
 }
 
-function ApplicationForm({ saving, onSave }) {
-  const [form, setForm] = useState({
+function ApplicationForm({ initialValues, submitLabel, saving, onSave, onCancel }) {
+  const [form, setForm] = useState(() => initialValues || {
     company: '',
     position: '',
     location: '',
@@ -136,11 +135,11 @@ function ApplicationForm({ saving, onSave }) {
       </div>
 
       <div className="form-actions">
-        <Link to="/" className="button button-secondary">
+        <button type="button" className="button button-secondary" onClick={onCancel}>
           Cancel
-        </Link>
+        </button>
         <button type="submit" className="button button-primary" disabled={saving}>
-          {saving ? 'Saving...' : 'Save application'}
+          {saving ? 'Saving...' : submitLabel}
         </button>
       </div>
     </form>

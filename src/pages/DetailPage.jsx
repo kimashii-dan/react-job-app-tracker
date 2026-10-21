@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { getApplication } from '../api.js'
+import { getApplication, updateApplication } from '../api.js'
+import ApplicationForm from '../components/ApplicationForm.jsx'
 import Message from '../components/Message.jsx'
 import StatusBadge from '../components/StatusBadge.jsx'
 import { formatDate } from '../utils.js'
@@ -10,6 +11,9 @@ function ApplicationDetail({ id }) {
   const [application, setApplication] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [editing, setEditing] = useState(false)
+  const [saving, setSaving] = useState(false)
+  const [saveError, setSaveError] = useState(null)
 
   useEffect(() => {
     let ignore = false
@@ -33,12 +37,43 @@ function ApplicationDetail({ id }) {
     }
   }, [id])
 
+  function handleSave(data) {
+    setSaving(true)
+    setSaveError(null)
+    updateApplication(id, data)
+      .then((updated) => {
+        setApplication(updated)
+        setEditing(false)
+        setSaving(false)
+      })
+      .catch((err) => {
+        setSaveError(err.message)
+        setSaving(false)
+      })
+  }
+
   if (loading) {
     return <Message type="loading">Loading application...</Message>
   }
 
   if (error) {
     return <Message type="error">{error}</Message>
+  }
+
+  if (editing) {
+    return (
+      <div className="detail-edit">
+        <h1 className="page-title">Edit application</h1>
+        {saveError && <Message type="error">{saveError}</Message>}
+        <ApplicationForm
+          initialValues={application}
+          submitLabel="Save changes"
+          saving={saving}
+          onSave={handleSave}
+          onCancel={() => setEditing(false)}
+        />
+      </div>
+    )
   }
 
   return (
@@ -72,6 +107,11 @@ function ApplicationDetail({ id }) {
           <dd>{application.notes || 'No notes'}</dd>
         </div>
       </dl>
+      <div className="detail-actions">
+        <button className="button button-primary" onClick={() => setEditing(true)}>
+          Edit application
+        </button>
+      </div>
     </article>
   )
 }

@@ -27,7 +27,12 @@ function AddPage() {
     <div className="add-page">
       <h1 className="page-title">New application</h1>
       {saveError && <Message type="error">{saveError}</Message>}
-      <ApplicationForm saving={saving} onSave={handleSave} />
+      <ApplicationForm
+        submitLabel="Save application"
+        saving={saving}
+        onSave={handleSave}
+        onCancel={() => navigate('/')}
+      />
     </div>
   )
 }
