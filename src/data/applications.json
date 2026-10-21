@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "company": "EPAM Kazakhstan",
+    "position": "Python Developer Intern",
+    "location": "Karaganda",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-03-03",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 2,
+    "company": "Kazakhtelecom",
+    "position": "Python Developer Intern",
+    "location": "Karaganda",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-03-05",
+    "notes": "Applied after the job fair at the university."
+  },
+  {
+    "id": 3,
+    "company": "Glovo Kazakhstan",
+    "position": "Software Engineer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "offer",
+    "appliedAt": "2026-03-06",
+    "notes": "Offer received, discussing the start date."
+  },
+  {
+    "id": 4,
+    "company": "Kolesa Group",
+    "position": "Junior Data Scientist",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "applied",
+    "appliedAt": "2026-03-07",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 5,
+    "company": "DAR",
+    "position": "DevOps Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-03-11",
+    "notes": "Sent CV via the company career page."
+  },
+  {
+    "id": 6,
+    "company": "Magnum",
+    "position": "Junior Frontend Developer",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-03-15",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 7,
+    "company": "Magnum",
+    "position": "Junior .NET Developer",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-03-19",
+    "notes": "Second round with the team lead scheduled."
+  },
+  {
+    "id": 8,
+    "company": "Kolesa Group",
+    "position": "DevOps Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-03-21",
+    "notes": "HR call done, technical interview next week."
+  },
+  {
+    "id": 9,
+    "company": "Kazakhtelecom",
+    "position": "Manual QA Tester",
+    "location": "Karaganda",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-03-22",
+    "notes": "HR call done, technical interview next week."
+  },
+  {
+    "id": 10,
+    "company": "EPAM Kazakhstan",
+    "position": "Frontend Intern (React)",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-03-23",
+    "notes": "Passed the online test, waiting for the tech interview."
+  },
+  {
+    "id": 11,
+    "company": "Kcell",
+    "position": "Data Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-03-25",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 12,
+    "company": "Air Astana",
+    "position": "QA Engineer Intern",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "offer",
+    "appliedAt": "2026-03-28",
+    "notes": "Offer received, discussing the start date."
+  },
+  {
+    "id": 13,
+    "company": "Bereke Bank",
+    "position": "iOS Developer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-03-28",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 14,
+    "company": "Halyk Bank",
+    "position": "Data Analyst Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-03-28",
+    "notes": "Found the vacancy in the university career chat."
+  },
+  {
+    "id": 15,
+    "company": "Kcell",
+    "position": "Data Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "offer",
+    "appliedAt": "2026-03-30",
+    "notes": "Offer received, discussing the start date."
+  },
+  {
+    "id": 16,
+    "company": "Magnum",
+    "position": "Python Developer Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "offer",
+    "appliedAt": "2026-03-30",
+    "notes": "Verbal offer, waiting for the written one."
+  },
+  {
+    "id": 17,
+    "company": "Tele2 Kazakhstan",
+    "position": "iOS Developer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-03-31",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 18,
+    "company": "EPAM Kazakhstan",
+    "position": "Software Engineer Intern",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-04-02",
+    "notes": "Applied after the job fair at the university."
+  },
+  {
+    "id": 19,
+    "company": "Bereke Bank",
+    "position": "Backend Intern (Go)",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-04-05",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 20,
+    "company": "Freedom Holding",
+    "position": "Software Engineer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-04-06",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 21,
+    "company": "BTS Digital",
+    "position": "Junior Fullstack Developer",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-04-09",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 22,
+    "company": "Bereke Bank",
+    "position": "DevOps Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-04-12",
+    "notes": "No reply after a month, marking as rejected."
+  },
+  {
+    "id": 23,
+    "company": "Magnum",
+    "position": "Software Engineer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-04-14",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 24,
+    "company": "Jusan Bank",
+    "position": "Data Analyst Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-04-15",
+    "notes": "Found the vacancy in the university career chat."
+  },
+  {
+    "id": 25,
+    "company": "BTS Digital",
+    "position": "Frontend Intern (React)",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "applied",
+    "appliedAt": "2026-04-16",
+    "notes": "Referral from a classmate who works there."
+  },
+  {
+    "id": 26,
+    "company": "EPAM Kazakhstan",
+    "position": "Frontend Intern (React)",
+    "location": "Karaganda",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-04-19",
+    "notes": "Referral from a classmate who works there."
+  },
+  {
+    "id": 27,
+    "company": "DAR",
+    "position": "ML Engineer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-04-20",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 28,
+    "company": "One Technologies",
+    "position": "Junior Fullstack Developer",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-04-22",
+    "notes": "Sent CV via the company career page."
+  },
+  {
+    "id": 29,
+    "company": "Kazakhtelecom",
+    "position": "Junior Data Scientist",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-04-23",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 30,
+    "company": "Tele2 Kazakhstan",
+    "position": "ML Engineer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-04-24",
+    "notes": "Sent CV via the company career page."
+  },
+  {
+    "id": 31,
+    "company": "Jusan Bank",
+    "position": "ML Engineer Intern",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-04-26",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 32,
+    "company": "BTS Digital",
+    "position": "Junior Backend Developer (Java)",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-04-29",
+    "notes": "No reply after a month, marking as rejected."
+  },
+  {
+    "id": 33,
+    "company": "inDrive",
+    "position": "ML Engineer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-04-29",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 34,
+    "company": "Bereke Bank",
+    "position": "Python Developer Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-04-30",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 35,
+    "company": "Jusan Bank",
+    "position": "Junior .NET Developer",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-05-01",
+    "notes": "Failed the online test, can reapply in 6 months."
+  },
+  {
+    "id": 36,
+    "company": "Beeline Kazakhstan",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-05-03",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 37,
+    "company": "KazMunayGas",
+    "position": "DevOps Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-05-05",
+    "notes": "No reply after a month, marking as rejected."
+  },
+  {
+    "id": 38,
+    "company": "Freedom Holding",
+    "position": "Manual QA Tester",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-05-06",
+    "notes": "Sent CV via the company career page."
+  },
+  {
+    "id": 39,
+    "company": "Kolesa Group",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-05-11",
+    "notes": "Referral from a classmate who works there."
+  },
+  {
+    "id": 40,
+    "company": "Astana Hub",
+    "position": "Android Developer Intern",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-05-13",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 41,
+    "company": "Freedom Holding",
+    "position": "Junior Backend Developer (Java)",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-05-13",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 42,
+    "company": "EPAM Kazakhstan",
+    "position": "Junior .NET Developer",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-05-18",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 43,
+    "company": "Air Astana",
+    "position": "iOS Developer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-05-18",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 44,
+    "company": "Glovo Kazakhstan",
+    "position": "Backend Intern (Go)",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-05-25",
+    "notes": "Applied after the job fair at the university."
+  },
+  {
+    "id": 45,
+    "company": "ForteBank",
+    "position": "Junior Backend Developer (Java)",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "offer",
+    "appliedAt": "2026-05-27",
+    "notes": "Offer for a 3-month paid internship."
+  },
+  {
+    "id": 46,
+    "company": "Tele2 Kazakhstan",
+    "position": "ML Engineer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-05-28",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 47,
+    "company": "Freedom Holding",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-05-29",
+    "notes": "Referral from a classmate who works there."
+  },
+  {
+    "id": 48,
+    "company": "Bereke Bank",
+    "position": "Backend Intern (Go)",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "offer",
+    "appliedAt": "2026-05-30",
+    "notes": "Offer received, discussing the start date."
+  },
+  {
+    "id": 49,
+    "company": "Home Credit Bank",
+    "position": "Manual QA Tester",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-05-31",
+    "notes": "Found the vacancy in the university career chat."
+  },
+  {
+    "id": 50,
+    "company": "BTS Digital",
+    "position": "QA Engineer Intern",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-06-02",
+    "notes": "Failed the online test, can reapply in 6 months."
+  },
+  {
+    "id": 51,
+    "company": "One Technologies",
+    "position": "DevOps Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-06-03",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 52,
+    "company": "Tele2 Kazakhstan",
+    "position": "Junior Data Scientist",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-06-08",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 53,
+    "company": "Freedom Holding",
+    "position": "Junior Data Scientist",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-06-09",
+    "notes": "Passed the online test, waiting for the tech interview."
+  },
+  {
+    "id": 54,
+    "company": "Glovo Kazakhstan",
+    "position": "iOS Developer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-06-10",
+    "notes": "Found the vacancy in the university career chat."
+  },
+  {
+    "id": 55,
+    "company": "Freedom Holding",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-06-13",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 56,
+    "company": "Kolesa Group",
+    "position": "Software Engineer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-06-13",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 57,
+    "company": "ForteBank",
+    "position": "Manual QA Tester",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-06-14",
+    "notes": "HR call done, technical interview next week."
+  },
+  {
+    "id": 58,
+    "company": "Glovo Kazakhstan",
+    "position": "Junior Fullstack Developer",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "offer",
+    "appliedAt": "2026-06-18",
+    "notes": "Offer received, discussing the start date."
+  },
+  {
+    "id": 59,
+    "company": "Freedom Holding",
+    "position": "DevOps Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-06-20",
+    "notes": "Passed the online test, waiting for the tech interview."
+  },
+  {
+    "id": 60,
+    "company": "Yandex Qazaqstan",
+    "position": "BI Analyst Intern",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-06-23",
+    "notes": "HR call done, technical interview next week."
+  },
+  {
+    "id": 61,
+    "company": "Arbuz.kz",
+    "position": "Junior Fullstack Developer",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-06-23",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 62,
+    "company": "One Technologies",
+    "position": "Software Engineer Intern",
+    "location": "Shymkent",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-06-25",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 63,
+    "company": "KazMunayGas",
+    "position": "Manual QA Tester",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-06-28",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 64,
+    "company": "Beeline Kazakhstan",
+    "position": "Manual QA Tester",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-07-03",
+    "notes": "Passed the online test, waiting for the tech interview."
+  },
+  {
+    "id": 65,
+    "company": "Arbuz.kz",
+    "position": "DevOps Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-07-04",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 66,
+    "company": "BTS Digital",
+    "position": "Junior .NET Developer",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-07-05",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 67,
+    "company": "Yandex Qazaqstan",
+    "position": "iOS Developer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-07-07",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 68,
+    "company": "Jusan Bank",
+    "position": "BI Analyst Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-07-07",
+    "notes": "HR call done, technical interview next week."
+  },
+  {
+    "id": 69,
+    "company": "Magnum",
+    "position": "ML Engineer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-07-08",
+    "notes": "Applied after the job fair at the university."
+  },
+  {
+    "id": 70,
+    "company": "BTS Digital",
+    "position": "Python Developer Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-07-14",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 71,
+    "company": "inDrive",
+    "position": "Junior .NET Developer",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-07-15",
+    "notes": "Found the vacancy in the university career chat."
+  },
+  {
+    "id": 72,
+    "company": "Tele2 Kazakhstan",
+    "position": "QA Engineer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-07-16",
+    "notes": "No reply after a month, marking as rejected."
+  },
+  {
+    "id": 73,
+    "company": "Tele2 Kazakhstan",
+    "position": "Data Analyst Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-07-17",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 74,
+    "company": "Jusan Bank",
+    "position": "Frontend Intern (React)",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-07-17",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 75,
+    "company": "Bereke Bank",
+    "position": "Junior Data Scientist",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-07-18",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 76,
+    "company": "ForteBank",
+    "position": "BI Analyst Intern",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-07-20",
+    "notes": "Applied after the job fair at the university."
+  },
+  {
+    "id": 77,
+    "company": "Magnum",
+    "position": "Android Developer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-07-20",
+    "notes": "No reply after a month, marking as rejected."
+  },
+  {
+    "id": 78,
+    "company": "Jusan Bank",
+    "position": "Junior .NET Developer",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-07-29",
+    "notes": "Applied on LinkedIn, recruiter viewed the profile."
+  },
+  {
+    "id": 79,
+    "company": "ForteBank",
+    "position": "Junior Fullstack Developer",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-07-30",
+    "notes": "HR call done, technical interview next week."
+  },
+  {
+    "id": 80,
+    "company": "inDrive",
+    "position": "Android Developer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-07-31",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 81,
+    "company": "inDrive",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-08-07",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 82,
+    "company": "Beeline Kazakhstan",
+    "position": "Data Analyst Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-08-10",
+    "notes": "Second round with the team lead scheduled."
+  },
+  {
+    "id": 83,
+    "company": "ForteBank",
+    "position": "Junior Backend Developer (Java)",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-08-10",
+    "notes": "Sent CV via the company career page."
+  },
+  {
+    "id": 84,
+    "company": "Chocofamily",
+    "position": "Frontend Intern (React)",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-08-11",
+    "notes": "Sent CV via the company career page."
+  },
+  {
+    "id": 85,
+    "company": "Tele2 Kazakhstan",
+    "position": "QA Engineer Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-08-11",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 86,
+    "company": "Astana Hub",
+    "position": "Junior Fullstack Developer",
+    "location": "Astana",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-08-11",
+    "notes": "Second round with the team lead scheduled."
+  },
+  {
+    "id": 87,
+    "company": "Beeline Kazakhstan",
+    "position": "QA Engineer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-08-14",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 88,
+    "company": "Chocofamily",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "interview",
+    "appliedAt": "2026-08-14",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 89,
+    "company": "Jusan Bank",
+    "position": "DevOps Intern",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-08-16",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 90,
+    "company": "Tele2 Kazakhstan",
+    "position": "Junior .NET Developer",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "offer",
+    "appliedAt": "2026-08-22",
+    "notes": "Offer received, discussing the start date."
+  },
+  {
+    "id": 91,
+    "company": "Chocofamily",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-08-27",
+    "notes": "Applied on LinkedIn, recruiter viewed the profile."
+  },
+  {
+    "id": 92,
+    "company": "Tele2 Kazakhstan",
+    "position": "Software Engineer Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "applied",
+    "appliedAt": "2026-09-04",
+    "notes": "Sent CV via the company career page."
+  },
+  {
+    "id": 93,
+    "company": "DAR",
+    "position": "ML Engineer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-09-05",
+    "notes": "HR call done, technical interview next week."
+  },
+  {
+    "id": 94,
+    "company": "Kolesa Group",
+    "position": "Junior .NET Developer",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-09-05",
+    "notes": "Got a take-home task, deadline in 5 days."
+  },
+  {
+    "id": 95,
+    "company": "Chocofamily",
+    "position": "Junior Frontend Developer",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-09-08",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 96,
+    "company": "Tele2 Kazakhstan",
+    "position": "iOS Developer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-09-09",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 97,
+    "company": "Beeline Kazakhstan",
+    "position": "QA Engineer Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "rejected",
+    "appliedAt": "2026-09-10",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 98,
+    "company": "Magnum",
+    "position": "Junior Fullstack Developer",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-09-11",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 99,
+    "company": "Magnum",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-09-11",
+    "notes": "Referral from a classmate who works there."
+  },
+  {
+    "id": 100,
+    "company": "Magnum",
+    "position": "ML Engineer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-09-13",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 101,
+    "company": "Freedom Holding",
+    "position": "Backend Intern (Go)",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-09-13",
+    "notes": "Failed the online test, can reapply in 6 months."
+  },
+  {
+    "id": 102,
+    "company": "KazMunayGas",
+    "position": "DevOps Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-09-14",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 103,
+    "company": "Glovo Kazakhstan",
+    "position": "Backend Intern (Go)",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-09-16",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 104,
+    "company": "Beeline Kazakhstan",
+    "position": "Junior Frontend Developer",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-09-18",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 105,
+    "company": "Air Astana",
+    "position": "Manual QA Tester",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-09-20",
+    "notes": "Position was closed before the interview."
+  },
+  {
+    "id": 106,
+    "company": "Halyk Bank",
+    "position": "Backend Intern (Go)",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "offer",
+    "appliedAt": "2026-09-21",
+    "notes": "Offer received, discussing the start date."
+  },
+  {
+    "id": 107,
+    "company": "Beeline Kazakhstan",
+    "position": "Backend Intern (Go)",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-09-23",
+    "notes": "Second round with the team lead scheduled."
+  },
+  {
+    "id": 108,
+    "company": "Freedom Holding",
+    "position": "Junior Frontend Developer",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-09-23",
+    "notes": "Failed the online test, can reapply in 6 months."
+  },
+  {
+    "id": 109,
+    "company": "Kcell",
+    "position": "Junior .NET Developer",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "applied",
+    "appliedAt": "2026-09-25",
+    "notes": "Applied through hh.kz, waiting for a reply."
+  },
+  {
+    "id": 110,
+    "company": "Kazakhtelecom",
+    "position": "Junior Frontend Developer",
+    "location": "Astana",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-09-30",
+    "notes": "Applied on LinkedIn, recruiter viewed the profile."
+  },
+  {
+    "id": 111,
+    "company": "Kaspi.kz",
+    "position": "QA Engineer Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-10-02",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 112,
+    "company": "Kcell",
+    "position": "Frontend Intern (React)",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-10-03",
+    "notes": "Applied after the job fair at the university."
+  },
+  {
+    "id": 113,
+    "company": "Arbuz.kz",
+    "position": "Frontend Intern (React)",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "offer",
+    "appliedAt": "2026-10-07",
+    "notes": "Offer for a 3-month paid internship."
+  },
+  {
+    "id": 114,
+    "company": "Kolesa Group",
+    "position": "DevOps Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-10-09",
+    "notes": "Rejected after the technical interview."
+  },
+  {
+    "id": 115,
+    "company": "Magnum",
+    "position": "Product Analyst Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "applied",
+    "appliedAt": "2026-10-10",
+    "notes": "Referral from a classmate who works there."
+  },
+  {
+    "id": 116,
+    "company": "BTS Digital",
+    "position": "iOS Developer Intern",
+    "location": "Astana",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-10-16",
+    "notes": "No reply after a month, marking as rejected."
+  },
+  {
+    "id": 117,
+    "company": "Halyk Bank",
+    "position": "Software Engineer Intern",
+    "location": "Almaty",
+    "workMode": "remote",
+    "status": "interview",
+    "appliedAt": "2026-10-16",
+    "notes": "Live coding interview went well, waiting for feedback."
+  },
+  {
+    "id": 118,
+    "company": "Tele2 Kazakhstan",
+    "position": "iOS Developer Intern",
+    "location": "Almaty",
+    "workMode": "hybrid",
+    "status": "rejected",
+    "appliedAt": "2026-10-18",
+    "notes": "They chose a candidate with more experience."
+  },
+  {
+    "id": 119,
+    "company": "Arbuz.kz",
+    "position": "Junior Backend Developer (Java)",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "interview",
+    "appliedAt": "2026-10-18",
+    "notes": "Passed the online test, waiting for the tech interview."
+  },
+  {
+    "id": 120,
+    "company": "Magnum",
+    "position": "Android Developer Intern",
+    "location": "Almaty",
+    "workMode": "onsite",
+    "status": "rejected",
+    "appliedAt": "2026-10-19",
+    "notes": "Failed the online test, can reapply in 6 months."
+  }
+]
