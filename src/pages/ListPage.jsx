@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { getApplications } from '../api.js'
+import { getApplications, PAGE_SIZE } from '../api.js'
 import ApplicationList from '../components/ApplicationList.jsx'
 import Controls from '../components/Controls.jsx'
 import Message from '../components/Message.jsx'
+import Pagination from '../components/Pagination.jsx'
 import './ListPage.css'
 
 function ListPage() {
@@ -10,7 +11,7 @@ function ListPage() {
   const [total, setTotal] = useState(0)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
-  const [query, setQuery] = useState({ search: '', status: 'all', sort: 'newest' })
+  const [query, setQuery] = useState({ search: '', status: 'all', sort: 'newest', page: 1 })
 
   useEffect(() => {
     let ignore = false
@@ -37,7 +38,12 @@ function ListPage() {
   }, [query])
 
   function updateQuery(changes) {
-    setQuery({ ...query, ...changes })
+    setQuery({ ...query, ...changes, page: 1 })
+    setLoading(true)
+  }
+
+  function handlePageChange(newPage) {
+    setQuery({ ...query, page: newPage })
     setLoading(true)
   }
 
@@ -67,6 +73,13 @@ function ListPage() {
         onSortChange={(value) => updateQuery({ sort: value })}
       />
       {content}
+      {!loading && !error && (
+        <Pagination
+          page={query.page}
+          totalPages={Math.ceil(total / PAGE_SIZE)}
+          onPageChange={handlePageChange}
+        />
+      )}
     </div>
   )
 }
