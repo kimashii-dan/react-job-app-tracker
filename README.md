@@ -2,7 +2,7 @@
 
 A React single page application for students to keep track of the jobs and internships they applied to: the company, the role, and the stage each application is at.
 
-**Live demo:** _add link here_
+**Live demo:** https://react-job-app-tracker-mu.vercel.app/
 
 ## Features
 
