@@ -76,7 +76,8 @@ function ListPage() {
       {!loading && !error && (
         <Pagination
           page={query.page}
-          totalPages={Math.ceil(total / PAGE_SIZE)}
+          total={total}
+          pageSize={PAGE_SIZE}
           onPageChange={handlePageChange}
         />
       )}

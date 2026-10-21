@@ -6,9 +6,18 @@
 }
 
 .pagination-info {
-  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
   font-weight: 600;
   color: var(--muted-foreground);
+}
+
+.pagination-range {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--foreground);
 }
 
 @media (max-width: 500px) {
