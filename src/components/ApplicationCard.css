@@ -51,3 +51,13 @@
 .card-mode {
   text-transform: capitalize;
 }
+
+@media (max-width: 500px) {
+  .card {
+    padding: 16px 18px;
+  }
+
+  .card-company {
+    font-size: 18px;
+  }
+}

@@ -118,6 +118,7 @@ textarea::placeholder {
   font-size: 64px;
   line-height: 1.1;
   color: var(--highlight);
+  overflow-wrap: break-word;
 }
 
 .button {
@@ -151,6 +152,16 @@ textarea::placeholder {
 .button-secondary {
   background: var(--secondary);
   color: var(--secondary-foreground);
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .page-title {
+    font-size: 40px;
+  }
 }
 
 .status-applied {

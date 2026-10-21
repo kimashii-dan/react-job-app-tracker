@@ -15,3 +15,9 @@
   font-weight: 600;
   color: var(--muted-foreground);
 }
+
+@media (max-width: 500px) {
+  .list-count {
+    font-size: 22px;
+  }
+}

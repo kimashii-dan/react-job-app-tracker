@@ -24,6 +24,7 @@
 
 .detail-top {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
@@ -79,5 +80,15 @@
 @media (max-width: 900px) {
   .detail-fields {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .detail {
+    padding: 24px 20px;
+  }
+
+  .detail-fields {
+    grid-template-columns: 1fr;
   }
 }

@@ -59,3 +59,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 500px) {
+  .form {
+    padding: 24px 20px;
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .form-actions .button {
+    text-align: center;
+  }
+}

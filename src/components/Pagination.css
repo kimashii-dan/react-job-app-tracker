@@ -10,3 +10,9 @@
   font-weight: 600;
   color: var(--muted-foreground);
 }
+
+@media (max-width: 500px) {
+  .pagination {
+    gap: 12px;
+  }
+}
